@@ -1,0 +1,126 @@
+        /* Fonts */
+
+
+        /* Global Resetado */
+*{
+    @import url('https://fonts.googleapis.com/css2? family= Spectral+SC:ital,wght@0,300;1,700;1,800 & display=swap');
+
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-image:linear-gradient(to bottom left , lime , white , yellow ) ;
+}
+        /* Headress */
+header{
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    color: darkgray;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+ padding: 0 0 0 50px;
+}
+
+main{
+    font-size: 20px;
+    padding: 10px;
+}
+
+aside{
+    font-size: 19px;
+    color: rgb(112, 107, 101);
+    padding: 18px;
+    margin: 10px;
+}
+
+section{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+article{
+    padding: 20px;
+    color: rgb(83, 78, 78);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: rgb(155, 142, 142);
+    
+}
+
+ /* Estilização dos itens */
+.menuBar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.burgue{
+    width: 30px;
+}
+ul{
+    width: 170px;
+}
+
+li{
+    font-weight: 700 bold;
+    font-size: 18px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+.ol-cor{
+    color: blue;
+}
+fieldset{
+    padding: 10px;
+}
+legend{
+    color: darkmagenta;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+}
+strong{
+    color: red;
+    font-size: 18px;
+    padding: 6px;
+}
+.indetificacao{
+    padding: 10px;
+}
+
+img{
+    padding: 3px;
+    border: 6px solid rgb(95, 39, 39);
+    color: aqua;
+  
+}
+
+/* Menu Hover */
+
+ul > li {
+    display: none;
+}
+
+ul:hover > li{
+    display: block;
+}
+
+
+
+
+
