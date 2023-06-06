@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,40 +8,47 @@
     <title>Portifólio</title>
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
+
 <body>
     <header>
         <h1>Evanicio Silva</h1>
     </header>
     <nav>
-        <div class="menuBar" >
-        <ul> 
-            <figure class="burgue">
-                <img src="./svG-icons/menu.svg" alt="menu Burgue">
-                <figcaption>Repositórios</figcaption>
-            </figure>
-            <li>
-                <a href="https://evanicio.github.io/Post-fake/">Post Fake</a>
-                <a href="https://evanicio.github.io/positividade/">Frases</a>
-                <a href="#">Aguardando</a>
+            <div id="menu-img" onclick="barraMenu()">
+            <img src="./svG-icons/menu.svg" alt="menu Burgue">
+            </div>
 
-        </li>
-        </ul>
-    </div>
+
+
+        <div id="menu-area">
+            <ul>
+
+                <li>
+                    
+                    <a href="https://evanicio.github.io/positividade/">Frases</a>
+                    <a href="https://evanicio.github.io/Post-fake/">Post Fake</a>
+                    <a href="#">Aguardando...</a>
+
+                </li>
+            </ul>
+        </div>
+        
+
     </nav>
     <main>
         <div class="indentificao">
             <fieldset>
                 <legend>Registro</legend>
                 <strong>Nome:</strong> Evanicio Silva <br>
-                <strong>Idade:</strong>  30 Anos <br>
-                <strong>Estado:</strong>  Minas Gerais(MG) <br>
+                <strong>Idade:</strong> 30 Anos <br>
+                <strong>Estado:</strong> Minas Gerais(MG) <br>
                 <strong>Relacionamento:</strong> Solteiro <br>
-                <strong>Idiomas:</strong>  Português <br>
+                <strong>Idiomas:</strong> Português <br>
             </fieldset>
         </div>
     </main>
     <aside>
-        <div class="relacao">
+        <div class="relacao marg">
             <fieldset>
                 <legend>Profissão</legend>
                 <ol type="I" class="ol-cor">
@@ -61,7 +69,7 @@
     </aside>
     <section>
         <article>
-            <div class="sobre">
+            <div class="sobre marg">
                 <fieldset>
                     <legend>Sobre Mim</legend>
                     <p>
@@ -75,29 +83,31 @@
                     </p>
                     <hr>
                     <p>
-                        Estóu procurando uma vaga para desenvolvedor web, estou cursando ainda na área de TI, nas linguagem
+                        Estóu procurando uma vaga para desenvolvedor web, estou cursando ainda na área de TI, nas
+                        linguagem
                         HTML5 CSS3 Básico, Programação Java Script.
                     </p>
                 </fieldset>
             </div>
-           
+
         </article>
     </section>
     <section>
         <article>
-            <div class="profis">
-                <p><strong>html5 -</strong> Básico</p>
+            <h2>Linguagens</h2>
+            <div class="profis marg">
+                <p><strong>HTML5 -</strong> Básico</p>
                 <hr>
-                <p><strong>css3 -</strong> Básico</p>
+                <p><strong>CSS3 -</strong> Básico</p>
                 <hr>
-                <p><strong>java script</strong> estudando</p>
+                <p><strong>JAVA SCRIPT</strong> Em estudos</p>
                 <hr>
             </div>
         </article>
     </section>
 
-<footer>
-    <p>contato</p>
+    <footer>
+        <p>contato</p>
         <div class="contato">
             <a href="#">
                 <img src="./svG-icons/instagram.svg" alt="instagram">
@@ -106,6 +116,10 @@
                 <img src="./svG-icons/linkedin.svg" alt="linkedin">
             </a>
         </div>
-</footer>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

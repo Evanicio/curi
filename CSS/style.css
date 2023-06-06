@@ -1,7 +1,6 @@
-        /* Fonts */
+/* Global Resetado */
 
-    @import url('https://fonts.googleapis.com/css2? family= Spectral+SC:ital,wght@0,300;1,700;1,800 & display=swap');
-        /* Global Resetado */
+        @import url('https://fonts.googleapis.com/css2? family= Spectral+SC:ital,wght@0,300;1,700;1,800 & display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,17 +12,19 @@
 body{
     background-image:linear-gradient(to bottom left , lime , white , yellow ) ;
 }
-        /* Headress */
+
+ /* Headress */
+
 header{
     font-family: 'Spectral SC', serif;
     font-weight: bold;
-    color: darkgray;
+    color: rgb(138, 64, 64);
     padding: 20px;
     text-align: center;
 }
 
 nav{
- padding: 0 0 0 50px;
+    padding: 0 0 0 50px;
 }
 
 main{
@@ -35,6 +36,7 @@ aside{
     font-size: 19px;
     color: rgb(112, 107, 101);
     padding: 18px;
+    text-align: center;
     margin: 10px;
 }
 
@@ -54,32 +56,58 @@ footer{
     flex-direction: column;
 
     text-align: center;
-    background-color: rgb(155, 142, 142);
+    background-color: rgb(211, 201, 110);
     
 }
 
  /* Estilização dos itens */
-.menuBar{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.burgue{
-    width: 30px;
+
+nav img{
+    width: 35px;
+    border: 5px outset red;
 }
 ul{
-    width: 170px;
+    list-style: none;
+
+   
+    width: 200px;
+    height: 20% auto;
+
+    padding:0;
+    list-style:none;
+
+}
+nav li{
+    display:block;
+    padding:10px;
+    color:#555;
+    cursor:pointer;
+
+    padding:0;
+    list-style:none;
+}
+li a{
+    display: flex;
+    flex-direction: row;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px;
+    margin: 5px;
+
+    border:1px solid mediumaquamarine;
+    border-radius: 6px 6px 6px;
+
+    color: rgb(8, 25, 77);
 }
 
-li{
-    font-weight: 700 bold;
-    font-size: 18px;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    padding: 3px;
+li a:hover{
+    background-color: whitesmoke;
 }
 .ol-cor{
+    list-style: none;
     color: blue;
 }
 fieldset{
@@ -95,26 +123,40 @@ strong{
     color: red;
     font-size: 18px;
     padding: 6px;
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 .indetificacao{
+    margin-top: 12px;
+    margin-bottom: 12px;
     padding: 10px;
 }
-
-img{
-    padding: 3px;
-    border: 6px solid rgb(95, 39, 39);
-    color: aqua;
-  
+footer{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.contato  a {
+    text-decoration: none;
+}
+.contato img{
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.marg p{
+    margin-top: 12px;
+    margin-bottom: 12px;
 }
 
-/* Menu Hover */
+#menu-area{
+    width:0px;
+    background:#ccc;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;
 
-ul > li {
-    display: none;
-}
-
-ul:hover > li{
-    display: block;
+    width: 0px;
+    background-color: black;
 }
 
 
