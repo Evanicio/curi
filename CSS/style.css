@@ -1,11 +1,8 @@
         /* Fonts */
 
-
+    @import url('https://fonts.googleapis.com/css2? family= Spectral+SC:ital,wght@0,300;1,700;1,800 & display=swap');
         /* Global Resetado */
 *{
-    @import url('https://fonts.googleapis.com/css2? family= Spectral+SC:ital,wght@0,300;1,700;1,800 & display=swap');
-
-
     margin: 0;
     padding: 0;
     outline: none;
