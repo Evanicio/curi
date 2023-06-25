@@ -156,7 +156,7 @@ footer{
     transition: all ease .5s;
 
     width: 0px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.535);
 }
 
 
