@@ -1,3 +1,5 @@
+// Menu-Bar
+
 function myMenu () {
     let menuArea = document.getElementById('menu-area');
 
