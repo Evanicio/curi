@@ -28,6 +28,11 @@ body{
     border: 2px solid darkgrey;
 
 }
+a , ul , li {
+    text-decoration: none;
+    color: violet;
+    margin-top: 12px;
+}
 nav{
     position:fixed;
     top:0;
@@ -35,11 +40,7 @@ nav{
     z-index:999;
     display: flex;
 }
-a , ul , li {
-    text-decoration: none;
-    color: violet;
-    margin-top: 12px;
-}
+
 nav ul {
     width: 300px;
 }
@@ -75,6 +76,7 @@ header h1 {
     text-align: center;
     font-weight: bolder;
     font-style: oblique;
+    text-shadow: 2px 2px 3px rgb(235, 220, 220);
     font-size: 50px;
     padding: 6px;
 }
